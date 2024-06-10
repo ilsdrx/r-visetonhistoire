@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap");
+
+body {
+  padding: 0;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-family: "Raleway", sans-serif;
+  background-color: skyblue;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav .logo a {
+  text-decoration: none;
+  color: black;
+}
+nav .onglets a {
+  margin-right: 10px;
+  color: #555454;
+  text-decoration: none;
+}
+nav .onglets a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -webkit-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+  -moz-box-shadow: -4px 6px 29px -11px rgba(166, 166, 166, 0.75);
+}
+header h3 {
+  margin-top: -10px;
+}
+header button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: rgb(218, 218, 218);
+  color: black;
+}
+
+.cartes {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartes .carte {
+  border: 3px solid black;
+  max-width: 600px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.cartes .carte h1 {
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.cartes .carte a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .droite {
+  display: flex;
+}
+footer .droite p {
+  margin-top: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    margin-top: 20px;
+    text-align: left;
+  }
+  nav .logo {
+    margin-bottom: 10px;
+  }
+}
+
+	</style>
+</head>
+<body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Le site pour révisé son histoire.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href=""><i class="fas fa-align-left"></i>Révisetonbrevet</a>
+      </div>
+      <div class="onglets">
+        <a href="">Accueil</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>
+        Bienvenue chez nous.
+      </h1>
+      <h3>
+       Vous trouverez ici les meilleures fiches de révisions sur la Première et la Seconde Guerre mondiale.
+      </h3>
+      <a href="file:///C:/Users/PC/Desktop/FICHES%20REVISION%20BREVET%202024/Fiche%20de%20r%C3%A9vision%20Premi%C3%A8re%20guerre%20mondiale%20(2).pdf">fiches de révision Première guerre mondiale.pdf</a>
+      <a href="file:///C:/Users/PC/Desktop/FICHES%20REVISION%20BREVET%202024/Fiche%20de%20r%C3%A9vion%20Seconde%20guerre%20mondiale.pdf">fiches de révision Seconde guerre mondiale.pdf</a>
+    </header>
+
+    <section class="cartes">
+      <div class="carte">
+        <h1>A savoir</h1>
+        <hr />
+        <p>
+          Mon site va s'améliorer au fur et à mesure du temps actuellement vous trouverez seulement des fiches de révision sur la Première et la Seconde Guerre mondiale.
+        </p>
+        <a href="">Lire plus</a>
+      </div>
+
+      <div class="carte">
+        <h1>A propos de moi</h1>
+        <hr />
+        <p>
+          Je me présente je m'appelle Ilyas j'ai 15 ans, j'ai fait ce site moi-même grâce à mes connaissances ce site est fait pour m'aider moi-même mais aussi les autres élèves, j'espère que cela vous aideras à n'oublier pas de partager le site à vos amis et merci pour votre visite 😉.
+        </p>
+        <a href="">Lire plus</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="gauche">
+        &copy; 2024 Révisetonbrevet, by Ilyas Hmaidouch
+      </div>
+
+    </footer>
+  </body>
+</html>
+
+</body>
+</html>
